@@ -129,8 +129,17 @@ public class TestBitwise {
 		byte anotherKey= 0b00110111;
 		System.out.println(Integer.toBinaryString(anotherKey));
 		
-		anotherKey = (byte) (anotherKey << 1);
+		byte changedKey = (byte) (anotherKey << 1);
 		System.out.println(Integer.toBinaryString(anotherKey));
+		
+		changedKey = (byte) (anotherKey << 2);
+		System.out.println(Integer.toBinaryString(changedKey));
+		
+		changedKey = (byte) (0xFF & (anotherKey << 2));
+		System.out.println(Integer.toBinaryString(changedKey));
+
+		
+				
 		
 		
 		
