@@ -1,0 +1,10 @@
+# Eclipse workspace data
+.metadata/
+.recommenders/
+
+# Compiled output
+bin/
+*.class
+
+# macOS
+.DS_Store
